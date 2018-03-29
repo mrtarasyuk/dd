@@ -1,6 +1,6 @@
 <?php
 
-$method = $_SERVER['tara-boy@mail.ru'];
+$method = $_SERVER['REQUEST_METHOD'];
 
 //Script Foreach
 $c = true;
