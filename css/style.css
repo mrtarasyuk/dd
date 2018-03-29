@@ -1,0 +1,61 @@
+form{
+	padding: 50px 40px;
+	background-color: rgba(139,0,0,0.7);
+	max-width: 370px;
+	border-radius: 20px;
+	margin: auto;
+	position: relative;
+
+}
+form input{
+	width: 80%;
+	margin-bottom: 10px;
+	height: 40px;
+	border-radius: 10px;
+	border: 3px solid rgba(154, 205, 50,0.8);
+}
+button{
+margin-left: 8%;
+background-color: rgba(154, 205, 50,0.8);
+width: 200px;
+height: 30px;
+border-radius: 10px;
+margin-top: 10px;
+border: 2px 2px 2px solid #fff;
+cursor: pointer;
+}
+.mfp-close-btn-in .mfp-close {
+    color: #fff;
+}
+
+div.extion {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+input[type="tel"] {
+  width: 250px;
+}
+
+input + span {
+  padding-right: 30px;
+}
+
+input:invalid+span:after {
+  position: absolute; content: '✖';
+  padding-left: 5px;
+  color: black;
+	margin: 0 auto;
+  font-size: 30px;
+  margin-top: 11px;
+}
+
+input:valid+span:after {
+  position: absolute;
+  content: '✓';
+  transition: 0.8s;
+  font-size: 30px;
+  padding-left: 5px;
+  color: #009000;
+  margin-top: 11px;
+}
